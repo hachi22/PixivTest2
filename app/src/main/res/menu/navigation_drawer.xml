@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1NavDrawer"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/newest"
+            android:title="Newest"
+            android:icon="@drawable/newest"/>
+
+        <item
+            android:id="@+id/search"
+            android:title="Search"
+            android:icon="@drawable/search"/>
+
+    </group>
+
+    <group
+        android:id="@+id/group2NavDrawer"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/submitWork"
+            android:title="Submit work"
+            android:icon="@drawable/submit_works"/>
+
+        <item
+            android:id="@+id/yourWorks"
+            android:title="Your works"
+            android:icon="@drawable/your_works"/>
+
+        <item
+            android:id="@+id/collection"
+            android:title="Collection"
+            android:icon="@drawable/collection"/>
+
+        <item
+        android:id="@+id/browsingHistory"
+        android:title="Browsing history"
+        android:icon="@drawable/browsing_history"/>
+
+        <item
+        android:id="@+id/markers"
+        android:title="Markers"
+        android:icon="@drawable/markers"/>
+
+    </group>
+
+    <item android:title="Connection">
+        <menu>
+
+    <group
+        android:id="@+id/group3navDrawer"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/following"
+            android:title="Following" />
+
+        <item
+            android:id="@+id/followers"
+            android:title="Followers"
+            />
+
+        <item
+            android:id="@+id/myPixiv"
+            android:title="My pixiv"
+            />
+
+        <item
+            android:id="@+id/logout"
+            android:title="Log Out"
+            />
+
+        <item
+            android:id="@+id/changeImg"
+            android:title="Change the profile pic"
+            />
+
+
+    </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Others">
+        <menu>
+
+    <group
+        android:id="@+id/group4navDrawer"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/feedback"
+            android:title="Feedback"
+            android:icon="@drawable/feedback"/>
+
+        <item
+            android:id="@+id/help"
+            android:title="Help"
+            android:icon="@drawable/help"
+            />
+
+        <item
+            android:id="@+id/settings"
+            android:title="Settings"
+            android:icon="@drawable/settings"
+            />
+
+        <item
+            android:id="@+id/muteSettings"
+            android:title="Mute settings"
+            />
+
+    </group>
+        </menu>
+
+    </item>
+
+
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp">
+
+    <ImageView
+        android:id="@+id/image_view_illustrations_popular_lives"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:src="@color/colorAccent"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:src="@drawable/gradient_popular_lives"/>
+
+    <TextView
+        android:id="@+id/text_view_illustrations_name_popular_lives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/popular_lives_user"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/text_view_illustrations_views_popular_lives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="views"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:src="@drawable/borde_item_view"
+        />
+
+</RelativeLayout>

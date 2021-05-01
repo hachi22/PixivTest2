@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pixiv</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="newest">Newest</string>
+    <string name="search">Search</string>
+    <string name="Illustrations">Illustrations</string>
+    <string name="Manga">Manga</string>
+    <string name="Novels">Novels</string>
+    <string name="openNavDrawer">Navigation Drawer open</string>
+    <string name="closeNavDrawer">Navigation Drawer close</string>
+    <string name="Description">Description</string>
+    <string name="Collection">Collection</string>
+</resources>

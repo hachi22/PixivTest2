@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout_fav"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+
+    <FrameLayout
+        android:id="@+id/fragment_container_fav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slide_view_pager_fav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include
+        layout="@layout/favorite_top_app_bar"
+        />
+
+
+</FrameLayout>

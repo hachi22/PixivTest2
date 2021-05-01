@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_text_title_submit_novel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary"
+                app:counterEnabled="true"
+                app:counterMaxLength="100"
+                android:hint="Title"
+                app:boxBackgroundColor="@color/colorAccent"
+                app:expandedHintEnabled="false"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_text_title_submit_novel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Input title"
+                    android:maxLines="1"
+                    android:maxLength="100"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_text_content_submit_novel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary"
+                app:counterEnabled="true"
+                app:counterMaxLength="300000"
+                app:boxBackgroundColor="@color/colorAccent"
+                android:hint="Content"
+                app:expandedHintEnabled="false"
+                android:layout_below="@+id/layout_text_title_submit_novel"
+
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_text_content_submit_novel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Input content"
+                    android:maxLines="1"
+                    android:maxLength="300000"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_text_description_submit_novel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary"
+                app:boxBackgroundColor="@color/colorAccent"
+                app:counterEnabled="true"
+                app:counterMaxLength="3000"
+                android:hint="Description"
+                app:expandedHintEnabled="false"
+                android:layout_below="@+id/layout_text_content_submit_novel"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_text_description_submit_novel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Input description"
+                    android:maxLines="1"
+                    android:maxLength="3000"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RadioGroup
+                android:id="@+id/group_radio_button_submit_novels"
+                android:layout_below="@+id/layout_text_description_submit_novel"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+
+                >
+                <RadioButton
+                    android:id="@+id/radio_button_public_novels"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Make public"
+                    android:buttonTint="@color/colorPrimary"/>
+
+                <RadioButton
+                    android:id="@+id/radio_button_private_novels"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Make private"
+                    android:buttonTint="@color/colorPrimary"/>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submitNovels"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="submit"
+                android:layout_below="@+id/group_radio_button_submit_novels"
+                android:layout_margin="20dp"/>
+
+        </RelativeLayout>
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar_subitwork_novels"
+            android:minHeight="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="SubmitWork"
+            />
+        <!--        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);-->
+        <!--        toolbar.setNavigationIcon(R.drawable.ic_arrow_back);-->
+        <!--        toolbar.setNavigationOnClickListener(new View.OnClickListener() {-->
+        <!--        @Override-->
+        <!--        public void onClick(View v) {-->
+        <!--        getActivity().onBackPressed();-->
+        <!--        }-->
+        <!--        });-->
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/top_appbar_favorite"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="@color/colorAccent"
+            app:title="@string/Collection"
+            />
+
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            >
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tablayout_favorite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabTextAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                app:tabTextColor="@color/gray"
+                app:tabBackground="@drawable/tab_selector"
+                app:tabSelectedTextColor="@color/colorAccent"
+                android:layout_marginHorizontal="8dp"
+                app:tabIndicatorHeight="0dp"
+                />
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

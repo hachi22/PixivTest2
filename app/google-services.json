@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "123360947734",
+    "firebase_url": "https://pixiv-69bcc-default-rtdb.firebaseio.com",
+    "project_id": "pixiv-69bcc",
+    "storage_bucket": "pixiv-69bcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123360947734:android:0ba82561f75fb274840f37",
+        "android_client_info": {
+          "package_name": "cat.itb.pixiv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123360947734-tqkrt3sh76oqjbftnk986h5nqcvo04it.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cat.itb.pixiv",
+            "certificate_hash": "8a35298f6101c37f793ff8e0866b11eed3489ade"
+          }
+        },
+        {
+          "client_id": "123360947734-ckmnlogk3isg2dbpjpt0eb2ntv47i90g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgFEpUP1dhHpOtnlZVnacnPhNi5G0GksM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123360947734-ckmnlogk3isg2dbpjpt0eb2ntv47i90g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/foto_de_perfil" />
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/profile_image"
+        android:textSize="20sp"
+        android:text="Username"
+        android:layout_toEndOf="@id/profile_image" />
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileName"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@id/profile_image"
+        android:layout_toRightOf="@id/profile_image"
+        android:text="About pixiv Premium"
+        android:textColor="@color/premiumButton"
+        android:textSize="12sp" />
+
+
+
+</RelativeLayout>
